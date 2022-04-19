@@ -111,9 +111,6 @@ a{
     color:var(--red-color)
 }
 
-.our-work .nav-link:hover{
-    color:var(--red-color)
-}
 
 .our-work ul .nav-link:focus{
     background-color:var(--red-color);
