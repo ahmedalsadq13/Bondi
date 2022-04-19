@@ -102,11 +102,19 @@ a{
 .our-work{
     background-color:var(--section-color)
 }
-.our-work .nav-link,
+.our-work .nav-link.active{
+    background-color: var(--red-color);
+    color: #FFF;
+}
+.our-work .nav-link{
+    background-color: transparent;
+    color:var(--red-color)
+}
+
 .our-work .nav-link:hover{
     color:var(--red-color)
 }
-.our-work ul .nav-link .active,
+
 .our-work ul .nav-link:focus{
     background-color:var(--red-color);
     color: #FFF;
@@ -220,10 +228,10 @@ a{
 .subscribe input[type="text"]:focus{
     outline:none;
 }
-.subscribe ::-moz-placeholder{color:#FFF}
-.subscribe ::-o-placeholder{color:#FFF}
-.subscribe ::-ms-placeholder{color:#FFF}
-.subscribe ::-webkit-placeholder{color:#FFF}
+.subscribe input::-moz-placeholder{color:#FFF}
+.subscribe input[type="text"]::-o-placeholder{color:#FFF}
+.subscribe input[type="text"]::-ms-placeholder{color:#FFF}
+.subscribe input[type="text"]::-webkit-placeholder{color:#FFF}
 
 .subscribe button{
     background-color:var(--dark-color);
